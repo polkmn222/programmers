@@ -17,6 +17,9 @@ https://programmers.co.kr/learn/challenges
 * 파이썬 입문
 * 파이썬을 파이썬 답게
 * 알고리즘 문제 해설
-
+* 자바 입문
+* 자바 중급
+* Hello, JavaScript 자바스크립트 입문
+* 자바스크립트와 웹 프론트엔드
 
 

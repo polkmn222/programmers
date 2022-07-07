@@ -1,0 +1,22 @@
+<!-- 문제 설명
+각 달을 month라는 인자로 받아 그 달이 몇일까지 있는 반환하는 함수 solution함수를 완성하세요.
+(2월은 28일까지 있다고 가정하세요.) -->
+
+function solution( month ){
+    <!-- // 여기에 switch를 이용해 각 달의 날짜수를 반환하는 프로그램을 작성하세요. -->
+    switch(month){
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            return 31;
+            break;
+        case 2:
+            return 28;
+            break;
+        case 4: case 6: case 9: case 11:
+            return 30;
+            break;
+
+        default:
+            console.log(month+"월은 존재하지 않습니다.");
+            break;   
+    }
+}
